@@ -15,13 +15,15 @@ public class Exercise61 {
     public static void removeFirst(ArrayList<String> list){
         list.remove(0);
     }
+
     public static void main(String[] args){
-        ArrayList<String> programmingLanguages = new ArrayList<String>();
+        ArrayList<String> programmingLanguages = new ArrayList<>();
         programmingLanguages.add("Pascal");
         programmingLanguages.add("Java");
         programmingLanguages.add("Python");
         programmingLanguages.add("Ruby");
         programmingLanguages.add("C++");
+
         //valjastatakse, mitu elementi on listis
         //System.out.println("There are thin many items int the list: ");
         //System.out.println(countItems(programmingLanguages));
