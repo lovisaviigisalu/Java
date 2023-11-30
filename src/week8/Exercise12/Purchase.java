@@ -10,8 +10,7 @@ public class Purchase {
         this.unitPrice = unitPrice;
     }
     public int price(){
-        int s =unitPrice * amount;
-        return s;
+        return unitPrice * amount;
     }
     public void increaseAmount(){
         amount++;
